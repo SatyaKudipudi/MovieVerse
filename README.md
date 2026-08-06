@@ -199,6 +199,17 @@ http://127.0.0.1:5000
 
 ---
 
+## Why a Graph Database?
+
+Movie recommendations depend on relationships between movies, actors, directors, and genres. A graph database naturally models these connections and allows efficient multi-hop traversals, making recommendation queries much simpler and faster than a traditional relational database.
+
+For example:
+Movie → ACTED_IN → Actor → ACTED_IN → Movie
+
+This enables discovering similar movies through shared actors, directors, or genres using Cypher queries.
+
+---
+
 ## 👨‍💻 Author
 
 **Kudipudi Satyavani**
