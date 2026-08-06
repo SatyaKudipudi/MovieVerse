@@ -1,8 +1,14 @@
 # 🎬 MovieVerse
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-Web%20App-black.svg)](https://flask.palletsprojects.com/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success.svg)](https://movieverse-uqgx.onrender.com)
+
 A modern **Movie Recommendation Web Application** built using **Flask**, **Neo4j Graph Database**, **HTML**, **CSS**, and **JavaScript**.
 
-MovieVerse allows users to discover movies, explore actors, directors, genres, receive graph-based recommendations, save favorites, and watch trailers through a modern responsive interface.
+## 🚀 Live Demo
+
+🔗 **https://movieverse-uqgx.onrender.com**
 
 ---
 
