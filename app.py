@@ -9,6 +9,7 @@ from flask import (
 )
 
 import sqlite3
+from auth_db import create_user_table
 
 from werkzeug.security import (
     generate_password_hash,
@@ -39,6 +40,8 @@ app = Flask(__name__)
 app.secret_key = "movieverse_secret_key"
 
 verify_connection()
+
+create_user_table()
 
 # ==========================================
 # SIGNUP
