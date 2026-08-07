@@ -148,11 +148,13 @@ This approach is faster and more intuitive than traditional relational databases
 
 ---
 
-# 🕸 Graph Database Schema
+## 🕸 Graph Database Schema
 
-The application models relationships between Movies, Actors, Directors, and Genres.
+The application models relationships between movies, actors, directors, and genres using Neo4j.
 
-![Graph Schema](screenshots/graph_schema.png)
+<p align="center">
+  <img src="screenshots/graph_schema.png" alt="MovieVerse Graph Database Schema" width="700">
+</p>
 
 ---
 
